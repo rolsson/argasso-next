@@ -111,6 +111,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_bootstrap_lib_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/lib/Navbar */ "react-bootstrap/lib/Navbar");
+/* harmony import */ var react_bootstrap_lib_Navbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_lib_Navbar__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_bootstrap_lib_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/lib/Nav */ "react-bootstrap/lib/Nav");
+/* harmony import */ var react_bootstrap_lib_Nav__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_lib_Nav__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_bootstrap_lib_Dropdown__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/lib/Dropdown */ "react-bootstrap/lib/Dropdown");
+/* harmony import */ var react_bootstrap_lib_Dropdown__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_lib_Dropdown__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/lib/NavDropdown */ "react-bootstrap/lib/NavDropdown");
+/* harmony import */ var react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_bootstrap_lib_Form__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap/lib/Form */ "react-bootstrap/lib/Form");
+/* harmony import */ var react_bootstrap_lib_Form__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_lib_Form__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_bootstrap_lib_FormControl__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap/lib/FormControl */ "react-bootstrap/lib/FormControl");
+/* harmony import */ var react_bootstrap_lib_FormControl__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_lib_FormControl__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_bootstrap_lib_Button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-bootstrap/lib/Button */ "react-bootstrap/lib/Button");
+/* harmony import */ var react_bootstrap_lib_Button__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_lib_Button__WEBPACK_IMPORTED_MODULE_10__);
 
 var _jsxFileName = "/Users/robert/dev/next/argasso-next/pages/_app.js";
 
@@ -142,6 +156,13 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
+
+
+
+
+
+
 var MyApp =
 /*#__PURE__*/
 function (_App) {
@@ -162,70 +183,206 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_1__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("header", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 28
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("nav", {
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Navbar__WEBPACK_IMPORTED_MODULE_4___default.a, {
+        bg: "light",
+        expand: "md",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/",
+        passHref: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Navbar__WEBPACK_IMPORTED_MODULE_4___default.a.Brand, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, "Argasso")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Navbar__WEBPACK_IMPORTED_MODULE_4___default.a.Toggle, {
+        "aria-controls": "basic-navbar-nav",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Navbar__WEBPACK_IMPORTED_MODULE_4___default.a.Collapse, {
+        id: "basic-navbar-nav",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Nav__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        className: "mr-auto",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/about",
+        passHref: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "About")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/contact",
+        passHref: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, "Contact")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        title: "Dropdown",
+        id: "basic-nav-dropdown",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7___default.a.Item, {
+        href: "#action/3.1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, "Action"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7___default.a.Item, {
+        href: "#action/3.2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, "Another action"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7___default.a.Item, {
+        href: "#action/3.3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }, "Something"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7___default.a.Divider, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_NavDropdown__WEBPACK_IMPORTED_MODULE_7___default.a.Item, {
+        href: "#action/3.4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, "Separated link"))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Form__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        inline: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_FormControl__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        type: "text",
+        placeholder: "Search",
+        className: "mr-sm-2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap_lib_Button__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        variant: "outline-success",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, "Search")))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("nav", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 51
         },
         __self: this
       }, "Home")), "|", react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 52
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 52
         },
         __self: this
       }, "About")), "|", react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 53
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 53
         },
         __self: this
       }, "Contact")))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, _extends({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 57
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("footer", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 59
         },
         __self: this
       }, "I`m here to stay"));
@@ -334,6 +491,83 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-bootstrap/lib/Button":
+/*!*********************************************!*\
+  !*** external "react-bootstrap/lib/Button" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/lib/Button");
+
+/***/ }),
+
+/***/ "react-bootstrap/lib/Dropdown":
+/*!***********************************************!*\
+  !*** external "react-bootstrap/lib/Dropdown" ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/lib/Dropdown");
+
+/***/ }),
+
+/***/ "react-bootstrap/lib/Form":
+/*!*******************************************!*\
+  !*** external "react-bootstrap/lib/Form" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/lib/Form");
+
+/***/ }),
+
+/***/ "react-bootstrap/lib/FormControl":
+/*!**************************************************!*\
+  !*** external "react-bootstrap/lib/FormControl" ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/lib/FormControl");
+
+/***/ }),
+
+/***/ "react-bootstrap/lib/Nav":
+/*!******************************************!*\
+  !*** external "react-bootstrap/lib/Nav" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/lib/Nav");
+
+/***/ }),
+
+/***/ "react-bootstrap/lib/NavDropdown":
+/*!**************************************************!*\
+  !*** external "react-bootstrap/lib/NavDropdown" ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/lib/NavDropdown");
+
+/***/ }),
+
+/***/ "react-bootstrap/lib/Navbar":
+/*!*********************************************!*\
+  !*** external "react-bootstrap/lib/Navbar" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/lib/Navbar");
 
 /***/ })
 
