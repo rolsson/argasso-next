@@ -43,7 +43,7 @@ export default class MyApp extends App {
         </Head>
         <header>
           <Navbar bg="dark" variant="dark" expand="md" fixed="top">
-            <Link href='/' passHref><Navbar.Brand>Argasso</Navbar.Brand></Link>
+            <Link href='/' passHref><Navbar.Brand>Grå bokförlag</Navbar.Brand></Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
@@ -83,12 +83,12 @@ export default class MyApp extends App {
             <BootstrapContainer>
               <Row>
                 <Col md={3}>
-                  <h5>Argasso bokförlag</h5>
+                  <h5>Grå bokförlag</h5>
                   <address>
-                    Lasarettsgatan 12<br/>
-                    89133 Örnsköldsvik<br/>
-                    0660 - 27 36 40<br/>
-                    info@argasso.se
+                    Gatangatan 123<br/>
+                    123 12 Ort<br/>
+                    010 - 12 34 56<br/>
+                    info@domain.domain
                   </address>
                 </Col>
                 <Col md={3}>
@@ -106,7 +106,7 @@ export default class MyApp extends App {
 
           <footer>
             <BootstrapContainer>
-              Copyright (c)
+              <p>Copyright © 2018 Grå bokförlag. Alla rättigheter reserverade. </p>
             </BootstrapContainer>
           </footer>
         </footer>
@@ -129,6 +129,7 @@ export default class MyApp extends App {
             /* Set the fixed height of the footer here */
             height: ${FOOTER_HEIGHT}px;
             /* line-height: 60px; */ /* Vertically center the text there */
+            font-size: .8rem;
           }
           footer > nav, ol.breadcrumb {
             background: #4e5a6b;

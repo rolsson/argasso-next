@@ -7,16 +7,22 @@
     "dev": "next",
     "build": "next build",
     "flow": "flow",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "@mdx-js/mdx": "^0.16.0",
     "@zeit/next-mdx": "^1.2.0",
+    "gray-matter": "^4.0.1",
+    "klaw": "^3.0.0",
     "next": "^7.0.2",
+    "raw-loader": "^0.5.1",
     "react": "^16.6.1",
     "react-bootstrap": "^1.0.0-beta.2",
     "react-dom": "^16.6.1",
-    "react-markdown": "^4.0.3"
+    "react-markdown": "^4.0.3",
+    "remark-emoji": "^2.0.2",
+    "remark-images": "^0.16.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.6",
