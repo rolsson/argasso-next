@@ -8,6 +8,7 @@
     "build": "next build",
     "flow": "flow",
     "start": "next start",
+    "preexport": "next build",
     "export": "next export"
   },
   "dependencies": {
