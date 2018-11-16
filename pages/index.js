@@ -10,7 +10,7 @@ type Props = {
 }
 
 const Index = ({ banners }: Props) => (
-  <Page>
+  <div>
     <Carousel>
       <Carousel.Item>
         <img
@@ -27,7 +27,11 @@ const Index = ({ banners }: Props) => (
         />
       </Carousel.Item>
     </Carousel>
-  </Page>
+    <Page>
+      <h2>Kommande utgivning</h2>
+      <h2>Nyheter</h2>
+    </Page>
+  </div>
 )
 
 Index.getInitialProps = async ({ req }) => {

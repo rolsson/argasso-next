@@ -43,13 +43,13 @@ export default class MyApp extends App {
         </Head>
         <header>
           <Navbar bg="dark" variant="dark" expand="md" fixed="top">
-            <Link href='/' passHref><Navbar.Brand>Grå bokförlag</Navbar.Brand></Link>
+            <Link href='/' prefetch passHref><Navbar.Brand>Grå bokförlag</Navbar.Brand></Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Link href='/books' passHref><Nav.Link>Books</Nav.Link></Link>
-                <Link href='/about' passHref><Nav.Link>About</Nav.Link></Link>
-                <Link href='/contact' passHref><Nav.Link>Contact</Nav.Link></Link>
+                <Link href='/books' prefetch passHref><Nav.Link>Books</Nav.Link></Link>
+                <Link href='/about' prefetch passHref><Nav.Link>About</Nav.Link></Link>
+                <Link href='/contact' prefetch passHref><Nav.Link>Contact</Nav.Link></Link>
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -66,9 +66,9 @@ export default class MyApp extends App {
           </Navbar>
         </header>
 
-        <BootstrapContainer as="main">
+        <main>
           <Component {...pageProps} />
-        </BootstrapContainer>
+        </main>
 
         <footer>
           <Breadcrumb listProps={{ className: 'container' }}>
