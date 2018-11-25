@@ -3,7 +3,6 @@ import React from 'react'
 import Head from 'next/head'
 import Page from '../components/Page'
 import Layout from '../components/Layout'
-// import Carousel from 'react-bootstrap/lib/Carousel'
 
 type Props = {
   banners: Array<string>,
