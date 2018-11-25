@@ -5,8 +5,6 @@ import Head from 'next/head'
 // import Moment from 'react-moment'
 import Markdown from 'react-markdown'
 
-import Container from 'react-bootstrap/lib/Container'
-
 export type Book = {
     title: string,
     content: string,

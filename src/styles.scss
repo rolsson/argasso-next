@@ -1,0 +1,9 @@
+$font-size: 50px;
+.example {
+  font-size: $font-size;
+}
+
+// $family-sans-serif: 'Overpass', sans-serif;
+// $family-sans-serif: Nunito, sans-serif;
+
+@import '~react-bulma-components/src/index'

@@ -1,7 +1,6 @@
 // @flow
 import React from 'react'
 import Page from '../components/Page'
-import Button from 'react-bootstrap/lib/Button'
 import Markdown from 'react-markdown'
 import matter from 'gray-matter'
 
@@ -24,7 +23,7 @@ const About = ({ content }: Props ) => (
 )
 
 About.getInitialProps = async ({ req }) => {
-  const data = await require(`../md/om-forlaget.md`)
+  const data = await require(`../content/md/om-forlaget.md`)
   const content = matter(data)
   // Create slug for URL //
   content.data.slug = content.data.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')

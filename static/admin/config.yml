@@ -10,7 +10,7 @@ collections:
   - name: "pages"
     label: "Pages"
     label_singular: "Page"
-    folder: "md"
+    folder: "content/md"
     create: true
     slug: "{{slug}}"
     fields: 

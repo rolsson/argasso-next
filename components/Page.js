@@ -2,7 +2,8 @@
 import React, { type Node } from 'react'
 import Head from 'next/head'
 
-import BootstrapContainer from 'react-bootstrap/lib/Container'
+import Section from 'react-bulma-components/lib/components/section'
+import Container from 'react-bulma-components/lib/components/container'
 
 type Props = {
   children: Node,
@@ -10,10 +11,12 @@ type Props = {
 }
 
 export default ({ children, title = 'This is the default title' }: Props) => (
-  <BootstrapContainer as="main">
+  <main>
     <Head>
       <title>{title}</title>
     </Head>
-    {children}
-  </BootstrapContainer>
+    <Container>
+      {children}
+    </Container>
+  </main>
 )

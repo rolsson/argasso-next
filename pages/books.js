@@ -1,7 +1,6 @@
 // @flow
 import React from 'react'
 import BookCard, {type Book} from '../components/Book'
-// import Button from 'react-bootstrap/lib/Button'
 
 const bookList = [{
         title: 'Book 1',

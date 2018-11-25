@@ -1,8 +1,9 @@
 {
-  "name": "with-flow",
+  "name": "argasso-next",
   "version": "1.0.0",
+  "description": "Argasso Website",
   "license": "MIT",
-  "author": "Jag Reehal",
+  "author": "Robert Olsson",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -12,23 +13,30 @@
     "export": "next export"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^0.16.0",
+    "@mdx-js/mdx": "^0.15.0",
     "@zeit/next-mdx": "^1.2.0",
+    "@zeit/next-sass": "^1.0.1",
     "gray-matter": "^4.0.1",
     "klaw": "^3.0.0",
     "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.10.0",
     "raw-loader": "^0.5.1",
-    "react": "^16.6.1",
-    "react-bootstrap": "^1.0.0-beta.2",
-    "react-dom": "^16.6.1",
+    "react": "^16.6.3",
+    "react-bulma-components": "^2.3.0",
+    "react-dom": "^16.6.3",
     "react-markdown": "^4.0.3",
     "remark-emoji": "^2.0.2",
-    "remark-images": "^0.16.0"
+    "remark-images": "^0.16.1"
   },
   "devDependencies": {
     "babel-eslint": "8.2.6",
     "babel-plugin-transform-flow-strip-types": "6.22.0",
     "flow-bin": "0.77.0",
     "flow-typed": "^2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rolsson/argasso-next.git"
   }
 }
