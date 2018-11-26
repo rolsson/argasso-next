@@ -2,7 +2,7 @@
 layout: page
 title: Om förlaget
 date: '2018-09-17T00:18:54+02:00'
-thumbnail: /uploads/lassarettsgatan.png
+thumbnail: /static/images/uploads/lassarettsgatan.png
 ---
 **Argasso är ett barnboksförlag som etablerades i december 2002 och ger ut 18–20 titlar per år. Sedan några år tillbaka publicerar förlaget även 5–10 e-böcker årligen.**
 
