@@ -23,7 +23,7 @@ const About = ({ content }: Props ) => (
 )
 
 About.getInitialProps = async ({ req }) => {
-  const data = await require(`../content/md/om-forlaget.md`)
+  const data = await require(`../content/nyheter/om-forlaget.md`)
   const content = matter(data)
   // Create slug for URL //
   content.data.slug = content.data.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')
