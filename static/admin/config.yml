@@ -63,27 +63,27 @@ collections:
         fields:
         - {label: "Speltid", name: "duration", widget: "string"}
         - {label: "Uppläsare", name: "reciter", widget: "string"}
-  - name: "sidor"
-    label: "Sidor"
-    files:
-      - label: "Startsida"
-        name: "startsida"
-        file: "content/index.md"
-        fields: 
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: string}
-          - label: Banners
-            name: banners
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Bild, name: image, widget: image}
-          - label: Kommande
-            name: kommande
-            widget: list  
-            fields: 
-              - {label: Bok, name: book, widget: relation, collection: books, searchFields: ["title"], valueField: title}
-              - {label: Text, name: text, widget: markdown}
+  # - name: "sidor"
+  #   label: "Sidor"
+  #   files:
+  #     - label: "Startsida"
+  #       name: "startsida"
+  #       file: "content/index.md"
+  #       fields: 
+  #         - {label: Title, name: title, widget: string}
+  #         - {label: Intro, name: intro, widget: string}
+  #         - label: Banners
+  #           name: banners
+  #           widget: list
+  #           fields:
+  #             - {label: Name, name: name, widget: string}
+  #             - {label: Bild, name: image, widget: image}
+  #         - label: Kommande
+  #           name: kommande
+  #           widget: list  
+  #           fields: 
+  #             - {label: Bok, name: book, widget: relation, collection: books, searchFields: ["title"], valueField: title}
+  #             - {label: Text, name: text, widget: markdown}
   # - name: "settings"
   #   label: "Inställningar"
   #   files:
