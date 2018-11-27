@@ -24,10 +24,9 @@ collections:
     label_singular: "Författare"
     folder: "content/authors"
     create: true
-    identifier_field: name
     slug: "{{slug}}"
     fields: 
-      - {label: "Namn", name: "name", widget: "string"}
+      - {label: "Namn", name: "title", widget: "string"}
       - {label: "Porträtt", name: "thumbnail", widget: "image"}
       - {label: "Biografi", name: "body", widget: "markdown"}
   - name: "books"
