@@ -1,15 +1,15 @@
 {
-    "name": "",
-    "address": "",
-    "zipCode": "",
-    "city": "",
-    "phone": "",
-    "email": "",
-    "people": [
-        {
-            "name": "",
-            "phone": "",
-            "email": ""
-        }
-    ]
+  "name": "Argasso bokförlag",
+  "address": "Lasarettsgatan 12",
+  "zipCode": "891 33",
+  "city": "Örnsköldsvik",
+  "phone": "0660 - 27 36 40",
+  "email": "info@argasso.se",
+  "people": [
+    {
+      "name": "Robert Olsson",
+      "phone": "073-250 88 20",
+      "email": "robert.olsson@argasso.se"
+    }
+  ]
 }
