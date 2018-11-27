@@ -84,24 +84,24 @@ collections:
             fields: 
               - {label: Bok, name: book, widget: relation, collection: books, searchFields: ["title"], valueField: title}
               - {label: Text, name: text, widget: markdown}
-  - name: "settings"
-    label: "Inställningar"
-    files:
-      - label: "Kontaktuppgifter"
-        name: "contact"
-        file: "content/contact.json"
-        format: "json"
-        fields: 
-          - {label: Namn, name: name, widget: string}
-          - {label: Postadress, name: address, widget: string}
-          - {label: Postnummer, name: zipCode, widget: string}
-          - {label: Postort, name: city, widget: string}
-          - {label: Telefon, name: phone, widget: string}
-          - {label: E-postadress, name: email, widget: string}
-          - label: Kontaktpersoner
-            name: people
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Telefonnummer, name: phone, widget: "string"}
-              - {label: E-postadress, name: email, widget: "string"}
+  # - name: "settings"
+  #   label: "Inställningar"
+  #   files:
+  #     - label: "Kontaktuppgifter"
+  #       name: "contact"
+  #       file: "content/contact.json"
+  #       format: "json"
+  #       fields: 
+  #         - {label: Namn, name: name, widget: string}
+  #         - {label: Postadress, name: address, widget: string}
+  #         - {label: Postnummer, name: zipCode, widget: string}
+  #         - {label: Postort, name: city, widget: string}
+  #         - {label: Telefon, name: phone, widget: string}
+  #         - {label: E-postadress, name: email, widget: string}
+  #         - label: Kontaktpersoner
+  #           name: people
+  #           widget: list
+  #           fields:
+  #             - {label: Name, name: name, widget: string}
+  #             - {label: Telefonnummer, name: phone, widget: "string"}
+  #             - {label: E-postadress, name: email, widget: "string"}
