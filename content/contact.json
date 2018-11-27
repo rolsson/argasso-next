@@ -1,3 +1,15 @@
 {
-    "people": []
+    "name": "",
+    "address": "",
+    "zipCode": "",
+    "city": "",
+    "phone": "",
+    "email": "",
+    "people": [
+        {
+            "name": "",
+            "phone": "",
+            "email": ""
+        }
+    ]
 }
