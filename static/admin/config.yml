@@ -103,5 +103,4 @@ collections:
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Telefonnummer, name: phone, widget: "string"}
               - {label: E-postadress, name: email, widget: "string"}
