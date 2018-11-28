@@ -1,5 +1,5 @@
 ---
-name: Robert Olsson
+title: Robert Olsson
 thumbnail: /uploads/avatar.jpg
 ---
 
