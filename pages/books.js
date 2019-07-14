@@ -1,6 +1,7 @@
 // @flow
 import React from 'react'
-import BookCard, {type Book} from '../components/Book'
+import BookCard, {type Book} from '../src/components/Book'
+// import loader from '../src/helpers/dataLoaders'
 
 const bookList = [{
         title: 'Book 1',
@@ -30,9 +31,13 @@ Books.getInitialProps = async ({ req }) => {
     console.log('initial props in Books')
 //   const res = await fetch('https://api.github.com/repos/zeit/next.js')
 //   const json = await res.json()
+  let books = bookList
 
+  if (req) {
+    //   books = loader.getContent('../content/books/')
+  }
   return {
-      books: bookList,
+      books,
   }
 }
 

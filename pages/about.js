@@ -1,6 +1,6 @@
 // @flow
 import React from 'react'
-import Page from '../components/Page'
+import Page from '../src/components/Page'
 import Markdown from 'react-markdown'
 import matter from 'gray-matter'
 

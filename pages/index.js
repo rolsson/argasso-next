@@ -1,8 +1,9 @@
 // @flow
+
 import React from 'react'
 import Head from 'next/head'
-import Page from '../components/Page'
-import Layout from '../components/Layout'
+import Page from '../src/components/Page'
+import Layout from '../src/components/Layout'
 
 type Props = {
   banners: Array<string>,
