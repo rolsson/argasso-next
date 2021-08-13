@@ -18,7 +18,7 @@
     "@zeit/next-sass": "^1.0.1",
     "gray-matter": "^4.0.1",
     "klaw": "^3.0.0",
-    "next": "^7.0.2",
+    "next": "^11.1.0",
     "next-routes": "^1.4.2",
     "node-sass": "^4.10.0",
     "raw-loader": "^0.5.1",
